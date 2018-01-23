@@ -1,0 +1,10 @@
+.item-list {
+  list-style: none;
+  padding: 0;
+  -webkit-padding-start: 0;
+}
+
+.item label {
+  padding-left: 0.3rem;
+  padding-right: 0.5rem;
+}
