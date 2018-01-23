@@ -24,7 +24,7 @@ export function connect (template, Component) {
 }
 
 //# Provider :: { store :: Atom, children :: Any } ~> ReactElement
-export function Provider({ store, children }) {
+export function Provider ({ store, children }) {
   return (
     <U.Context context={{ store }}>
       {children}
